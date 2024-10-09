@@ -1,0 +1,14 @@
+[project]
+name = "fastinteria"
+version = "0.1.0"
+description = "testing out fastapi w/ inertia"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi-inertia>=1.0.3",
+    "fastapi>=0.115.0",
+    "httpx>=0.27.2",
+    "itsdangerous>=2.2.0",
+    "pydantic[email]>=2.9.2",
+    "uvicorn>=0.31.0",
+]
